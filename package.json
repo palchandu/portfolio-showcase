@@ -10,23 +10,27 @@
     "lint": "eslint app --ext .ts,.tsx",
     "lint:fix": "eslint app --ext .ts,.tsx --fix",
     "format": "prettier app --write --ignore-unknown",
-    "prepare": "husky"
+    "prepare": "husky",
+    "homepage": "https://palchandu.github.io/portfolio-showcase",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
+    "*.{ts,tsx}": []
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
     "@react-router/node": "^7.7.1",
     "@react-router/serve": "^7.7.1",
+    "@strapi/blocks-react-renderer": "^1.0.2",
     "framer-motion": "^12.23.12",
     "isbot": "^5.1.27",
     "lucide-react": "^0.542.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.7.1"
+    "react-hook-form": "^7.62.0",
+    "react-router": "^7.7.1",
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
@@ -35,10 +39,13 @@
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.35.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react": "^7.37.5",
+    "gh-pages": "^6.3.0",
     "globals": "^16.3.0",
     "husky": "^9.1.7",
     "jiti": "^2.5.1",
