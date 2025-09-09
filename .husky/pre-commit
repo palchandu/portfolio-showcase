@@ -1,0 +1,5 @@
+# Pre-commit Hook
+
+## Check linting of each commit
+
+npx lint-staged

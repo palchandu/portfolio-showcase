@@ -84,4 +84,15 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 
 ---
 
-Built with ❤️ using React Router.
+# Resources
+
+- [Setup ESLINT and PRETTIER in React app](https://dev.to/knowankit/setup-eslint-and-prettier-in-react-app-357b)
+
+- [ESLint, Prettier, and VSCode Setup for JavaScript Code Linting & Formatting | Tips for Clean Code](https://youtu.be/F0IrHtPo-Ec?si=vQoVD7ngXCsGeerj)
+
+- [Improving Code Quality in React with ESLint, Prettier, and TypeScript](https://medium.com/globant/improving-code-quality-in-react-with-eslint-prettier-and-typescript-86635033d803)
+
+- [Setup ESLint, Prettier, Husky with Vite](https://dev.to/leon740/setup-eslint-prettier-husky-with-vite-860)
+
+  Built with ❤️ using React Router.
+# portfolio-showcase
